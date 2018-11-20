@@ -1,0 +1,39 @@
+<html>
+	<head> 
+		<title>first page for now</title>
+		
+		<style>
+			#header{
+				background-color: darkblue;
+				color: white;
+				/*This is CSS equivalent to swifts constraints, you can create left, right, upper, and lower padding seperately as well*/
+				padding: 20px;
+				text-align: center;
+				font-style: italic;
+
+			}
+			#backbutton{
+				position: relative;
+				right: 40%;
+			}
+			#space_Eel {
+				padding: 50px;
+				background-image: url("turkey.jpg");
+				/*resizes background image*/
+				background-size: cover;
+				/*position must be relative to move image using left, right, up or down*/
+				position: relative;
+				left: 50%;
+			}
+
+		</style>
+	</head>
+	<body>
+		<h1 id = "header"><a href="home.html"><img src="arrow.png" height=40px width=60px id="backbutton"></a> Hello World </h1>
+
+		<!-- Need the pictures extension for most image types -->
+		<img src="space_Eel.jpg" alt="space EEL" id="space_Eel" height= "150px">
+
+	</body>
+
+</html>
