@@ -1,3 +1,7 @@
-# web-dev-practice
-
-attempting to make many web pages
+<html>
+  <head>
+  </head>
+  <body>
+    hello
+    </body>
+    </html>
